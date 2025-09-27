@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.main`
   width: 100%;
   min-height: ${({ theme }) =>
     `calc(100vh - ${parseInt(theme.layout.padding.topBottom) * 2}px - ${theme.layout.headerHeight})`};
@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
   z-index: ${({ theme }) => theme.zIndex.imageGrid};
 `;
 
-export const HeaderContainer = styled.div`
+export const HeaderContainer = styled.header`
   display: flex;
   flex-direction: column;
   gap: 60px;
