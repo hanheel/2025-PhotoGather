@@ -5,8 +5,8 @@ import Button from '../../components/@common/buttons/button/Button';
 import KakaoLoginButton from '../../components/specific/kakaoLoginButton/KakaoLoginButton';
 import { AUTH_COOKIES } from '../../constants/keys';
 import { ROUTES } from '../../constants/routes';
-import useAuthActions from '../../hooks/@common/useAuthActions';
-import useKakaoAuth from '../../hooks/domain/useKakaoAuth';
+import useAuthActions from '../../hooks/domain/auth/useAuthActions';
+import useKakaoAuth from '../../hooks/domain/auth/useKakaoAuth';
 import { CookieUtils } from '../../utils/CookieUtils';
 import * as S from './DemoHome.styles';
 

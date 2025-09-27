@@ -1,4 +1,4 @@
-import { useToast } from './@common/useToast';
+import { useToast } from './useToast';
 
 interface UseCopyLinkProps {
   text: string;

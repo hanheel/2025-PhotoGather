@@ -3,7 +3,7 @@ import { SpaceCreateImg as spaceCreateImage } from '../../@assets/images';
 import MessageLayout from '../../components/layout/messageLayout/MessageLayout';
 import { COMPLETE } from '../../constants/messages';
 import { ROUTES } from '../../constants/routes';
-import useSpaceCodeFromPath from '../../hooks/useSpaceCodeFromPath';
+import useSpaceCodeFromPath from '../../hooks/domain/space/useSpaceCodeFromPath';
 
 const SpaceCreatedCompletePage = () => {
   const navigate = useNavigate();
