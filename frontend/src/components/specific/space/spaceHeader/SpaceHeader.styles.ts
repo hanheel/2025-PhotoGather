@@ -20,7 +20,7 @@ export const TitleContainer = styled.div`
   gap: 8px;
 `;
 
-export const Title = styled.p`
+export const Title = styled.h2`
   ${({ theme }) => ({ ...theme.typography.header01 })};
   color: ${({ theme }) => theme.colors.white};
 `;
