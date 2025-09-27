@@ -10,7 +10,7 @@ export const Wrapper = styled.main`
   z-index: ${({ theme }) => theme.zIndex.imageGrid};
 `;
 
-export const HeaderContainer = styled.header`
+export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 60px;
